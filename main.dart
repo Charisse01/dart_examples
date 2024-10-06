@@ -29,7 +29,7 @@ void main() {
 }
 */
 
-
+/*
 //example 3 using list
 void main() {
   final numbers = [1, 2, 3, 4];
@@ -59,6 +59,32 @@ void main() {
   print(fruits);  
   
 }
+*/
+
+
+
+//example 4 using Class
+class Date {
+  static const Date today = Date(21, 12, 2024); 
+
+  final int day;
+  final int month;
+  final int year;
+
+  const Date(this.day, this.month, this.year);
+
+  @override
+  String toString() {
+    return '$day/$month/$year';
+  }
+}
+
+void main() {
+  print(Date.today); 
+}
+
+
+
 
 
 
