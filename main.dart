@@ -9,7 +9,7 @@ void main() {
 */
 
 
-
+/*
 //example 2 using maps
 void main() {
   var books = {
@@ -27,3 +27,47 @@ void main() {
   
   print(books.containsValue('Powerless'));  
 }
+*/
+
+
+//example 3 using list
+void main() {
+  final numbers = [1, 2, 3, 4];
+  final fruits = 
+  ['manzana', 
+  'banana', 
+  'naranja', 
+  'sandia', 
+  'cereza'];
+
+  print(numbers[0]); 
+  print(fruits[3]);  
+
+  
+  numbers.add(5);
+  fruits.add('uva');
+
+  if (fruits.contains('mango')) {
+    print('is in the list'); 
+  }
+  else {
+    print('is not in the list');
+  }
+
+
+  print(numbers); 
+  print(fruits);  
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
