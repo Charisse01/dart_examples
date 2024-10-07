@@ -62,7 +62,7 @@ void main() {
 */
 
 
-
+/*
 //example 4 using Class
 class Date {
   static const Date today = Date(21, 12, 2024); 
@@ -82,8 +82,16 @@ class Date {
 void main() {
   print(Date.today); 
 }
+*/
 
-
+// example 5 using Sets
+void main() {
+  var desserts = {'cookies', 'ice cream', 'brownie', 'apple pie', 'Mousse'};
+  var meals = {'soup', 'pasta', 'bread', 'salad', 'chicken', 'fish'};
+  
+  var allElements = desserts.union(meals);
+  print('Union de sets: $allElements');
+}
 
 
 
