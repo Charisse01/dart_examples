@@ -29,7 +29,7 @@ void main() {
 }
 */
 
-/*
+
 //example 3 using list
 void main() {
   final numbers = [1, 2, 3, 4];
@@ -59,7 +59,7 @@ void main() {
   print(fruits);  
   
 }
-*/
+
 
 
 /*
@@ -84,6 +84,7 @@ void main() {
 }
 */
 
+/*
 // example 5 using Sets
 void main() {
   var desserts = {'cookies', 'ice cream', 'brownie', 'apple pie', 'Mousse'};
@@ -92,8 +93,10 @@ void main() {
   var allElements = desserts.union(meals);
   print('Union de sets: $allElements');
 }
+*/
 
 
+// example 5 using Sets
 
 
 
